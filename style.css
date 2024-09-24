@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #808080;
+    color: white;
+}
+
+.header-left h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.header-right a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header-right a:hover {
+    text-decoration: underline;
+}
+
+/* Section 1 */
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.section-one .column {
+    width: 4how 5%;
+}
+
+.section-one h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.image-box {
+    width: 600px;          
+    height: 600px;         
+    margin: 0 auto;        
+    padding: 0;            
+    border: 2px solid #ccc; 
+    overflow: hidden;      
+}
+
+.image-box img {
+    width: 100%;           
+    height: 100%;          
+    object-fit: cover;     
+}
+
+/* Section 2 */
+.section-two {
+    background-color: #808080;
+    padding: 40px;
+    text-align: center;
+}
+
+.section-two h2 {
+    margin-bottom: 20px;
+}
+
+.images-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-box1 {
+    text-align: center;
+}
+
+.image-box1 img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section 3 */
+.section-three {
+    background-color: #DCDCDC;
+    padding: 40px;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+cite {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Section 4 */
+.section-four {
+    background-color: #f0f0f0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #DCDCDC;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.call-to-action h2 {
+    margin-bottom: 20px;
+}
+
+.call-to-action .button {
+    margin-top: 10px;
+}
+
+/* Section 5 */
+.section-five {
+    background-color: #808080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
